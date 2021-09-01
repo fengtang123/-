@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfloar::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#head{
+    width: 100%;
+    height: 73px;
+    background: #fff;
+}
+/* 头部的正中间 */
+.head-m{
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+}
+/* 头部的logo */
+.m-logo{
+    width: 290px;
+    height: 70px;
+    background: url(../imgg/modules.png) no-repeat 0 -51px;
+}
+/* 头部的搜索框 */
+.m-search{
+    width: 300px;
+    height: 70px;
+    margin-left: 334px;
+}
+.inputwrap{
+    width: 300px;
+    height: 38px;
+    margin-top: 10px;
+    background: url(../imgg/1.png) no-repeat;
+    border-radius: 30px;
+}
+.m-shopcar{
+    width: 36px;
+    height: 36px;
+    background: url(../imgg/modules.png) no-repeat -110px -160px;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+/* 登录 */
+.m-select{
+    width: 62px;
+    height: 36px;
+    background:url(../imgg/arrow-d.png) no-repeat right;
+    margin-top: 15px;
+    width: 36px;
+    margin-right: 35px;
+    padding-right: 30px;
+    position: relative;
+}
+.m-select:hover{
+    background:url(../imgg/arrow-u.png) no-repeat right;
+}
+.m-select a{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+.m-select:hover ul{
+    display: block;
+}
+.m-select ul{
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    left: -10px;
+    width: 160px;
+    height: auto;
+    box-shadow: 0 4px 7px #555;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    display: none;
+    cursor: pointer;
+}
+.m-select ul li{
+    padding-left: 24px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+}
+.m-select ul li:hover{
+    background:peachpuff;
+}
+/* 轮播图的开始 */
+.lunbo{
+    width: 100%;
+    height: 480px;
+    background: peachpuff;
+}
+.lbt{
+    width: 1100px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+.ulli{
+    width: 1100px;
+    height: 480px;
+    background: powderblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ulli li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.olli{
+    height: 16px;
+    position: absolute;
+    bottom: 10px;
+    left:40%;
+}
+.olli li{
+    height: 16px;
+    width: 16px;
+    float: left;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    margin-left:10px;
+}   
+.zuo{
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top: 45%;
+    left: -50px;
+    background: url(../imgg/pointlist.png) no-repeat -10px -13px;
+}
+.you{
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top: 45%;
+    right: -50px;
+    background: url(../imgg/pointlist.png) no-repeat -53px -13px;
+}
+/* 四个图标的开始 */
+.g-tab{
+    width: 100%;
+    height: 81px;
+    border-bottom: 1px solid #eee;
+}
+.tab{
+    width: 1100px;
+    height: 81px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.tab ul li{
+    width: 275px;
+    box-sizing: border-box;
+    height: 80px;
+    margin-top: 1px;
+    border-right: 1px solid #eee;
+    float: left;
+    border-left: 1px solid #eee;
+}
+.tab ul li img{
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.tab ul li span{
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* 有证青春的开始 */
+.yzqc{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    
+}
+.yzq{
+    width: 1100px;
+    height: 300px;
+    background: lightblue;
+    margin: 0 auto;
+}
+.yzq-z{
+    cursor: pointer;
+}
+
+/* 编辑推荐的开始 */
+.m-block{
+    width: 100%;
+}
+.bjtj{
+    width: 1100px;
+    height: 816px;
+    
+    margin: 30px auto;
+}
+.recmd-list{
+   height: 764px;
+   width: 1100px;
+   margin-top: 30px;
+}
+.ul li{
+    width: 263px;
+    height: 382px;
+    float:left;
+    margin-right: 12px;
+}
+.ztbf h3{
+    width: 263px;
+    height: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-align: center;
+}
+.ztbf p{
+    text-align: center;
+    color: red;
+}
+/* 数字专辑的开始 */
+.szzj{
+    width: 100%;
+    height: 180px;
+}
+.szzj img{
+    margin: 0 auto;
+    width: 1100px;
+    height: 180px;
+    display: block;
+}
+/* 热门商品的开始 */
+.rmsp{
+    width: 100%;
+}
+.uull{
+    width: 1100px;
+    margin: 0 auto;
+}
+.uull li{
+    width: 263px;
+    height: 382px;
+    float:left;
+    margin-right: 12px;
+}
+/* 结尾的开始 */
+.wb{
+    width: 100%;
+    height: 173px;
+    background:#eee;
+}
+.m-ft{
+    width: 980px;
+    height: 115px;
+    margin: 0 auto;
+}
+.wb .wrap{
+    width: 520px;
+    height: 115px;
+}
+.wb .wrap .p1,.p2{
+    height: 24px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.wb .wrap .p1 a{
+    font-size: 12px;
+    color: 12px;
+    color: #333;
+    float: left;
+    line-height: 24px;
+    margin:0 10px;
+}
+.wb .wrap .p1 span{
+    font-size: 12px;
+    color: #333;
+    float: left;
+    line-height: 24px;
+}
+.wb .wrap .p2 span{
+    font-size: 12px;
+    color: #333;
+    float: left;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.wb .wrap .p2 a{
+    color: #333;
+    font-size: 12px;
+    float: left;
+    line-height: 24px;
+    margin-right: 15px;
+}
+.wb .enter{
+    width: 420px;
+    height: 70px;
+}
+.wb .enter li img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
